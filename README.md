@@ -19,6 +19,8 @@ app.post("/events", (req, res) => {
   events.push(event);
   res.status(201).json({ message: "Event added" });
 });
+npm start
+npm start
 
 // Start the server
 const PORT = 5000;
